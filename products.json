@@ -5,7 +5,7 @@
     {
       "id": "anker_nano_charger_20w",
       "name": "Chargeur Anker Nano 20W USB-C",
-      "amazon_url": "https://www.amazon.fr/dp/REMPLACE_PAR_ASIN",
+      "amazon_url": "https://amzn.to/4pfU720",
       "categorie": "chargeur secteur",
       "puissance": "20W",
       "prix_indicatif": "19,99€"
@@ -13,7 +13,7 @@
     {
       "id": "apple_magsafe",
       "name": "Chargeur MagSafe Apple",
-      "amazon_url": "https://www.amazon.fr/dp/REMPLACE_PAR_ASIN",
+      "amazon_url": "https://amzn.to/4vXjp7B",
       "categorie": "chargeur sans fil",
       "puissance": "15W",
       "prix_indicatif": "45€"
@@ -21,7 +21,7 @@
     {
       "id": "ugreen_65w_gan",
       "name": "Chargeur UGREEN 65W GaN 3 ports",
-      "amazon_url": "https://www.amazon.fr/dp/REMPLACE_PAR_ASIN",
+      "amazon_url": "https://amzn.to/4wtB8mM",
       "categorie": "chargeur multi-ports",
       "puissance": "65W",
       "prix_indicatif": "39,99€"
@@ -29,7 +29,7 @@
     {
       "id": "cable_usbc_lightning_anker",
       "name": "Câble USB-C vers Lightning Anker 1m",
-      "amazon_url": "https://www.amazon.fr/dp/REMPLACE_PAR_ASIN",
+      "amazon_url": "https://amzn.to/4pcEHvk",
       "categorie": "cable",
       "puissance": "N/A",
       "prix_indicatif": "12,99€"
@@ -37,7 +37,7 @@
     {
       "id": "belkin_car_charger",
       "name": "Chargeur voiture Belkin 20W",
-      "amazon_url": "https://www.amazon.fr/dp/REMPLACE_PAR_ASIN",
+      "amazon_url": "https://amzn.to/3R1QuQD",
       "categorie": "chargeur voiture",
       "puissance": "20W",
       "prix_indicatif": "24,99€"
@@ -45,7 +45,7 @@
     {
       "id": "anker_powerbank_20000",
       "name": "Batterie externe Anker 20000mAh charge rapide",
-      "amazon_url": "https://www.amazon.fr/dp/REMPLACE_PAR_ASIN",
+      "amazon_url": "https://amzn.to/4vYPNH2",
       "categorie": "batterie externe",
       "puissance": "20W",
       "prix_indicatif": "49,99€"
