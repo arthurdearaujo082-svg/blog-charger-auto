@@ -2,10 +2,12 @@ name: Publication quotidienne blog chargeurs iPhone
 
 on:
   schedule:
-    # Tous les jours à 7h00 heure de Paris (5h00 UTC en été / 6h00 UTC en hiver)
-    # GitHub Actions fonctionne en UTC, ajuste selon la saison si besoin
-    - cron: "0 6 * * *"
-  workflow_dispatch: {} # permet aussi de lancer le script manuellement depuis l'onglet Actions
+    - cron: "0 6 * * *" # 7h/8h heure de Paris selon la saison
+  workflow_dispatch: {}
+
+# Indispensable : autorise le robot à écrire (commit/push) dans le dépôt
+permissions:
+  contents: write
 
 jobs:
   generate-and-publish:
@@ -22,9 +24,6 @@ jobs:
       - name: Générer et publier l'article
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          WP_URL: ${{ secrets.WP_URL }}
-          WP_USER: ${{ secrets.WP_USER }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
           AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
           PUBLISH_STATUS: ${{ secrets.PUBLISH_STATUS }}
         run: node generate-and-publish.js
