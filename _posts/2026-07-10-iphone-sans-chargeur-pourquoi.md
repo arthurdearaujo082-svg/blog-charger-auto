@@ -3,7 +3,7 @@ layout: post
 title: "iPhone sans chargeur : pourquoi Apple a fait ce choix"
 description: "iPhone sans chargeur pourquoi ? Découvrez les vraies raisons derrière cette décision d'Apple et comment bien choisir votre chargeur de remplacement."
 date: 2026-07-10 08:00:00 +0200
-published: false
+published: true
 ---
 
 *En tant que partenaire Amazon, cet article contient des liens affiliés. Nous touchons une commission sur les achats éligibles, sans coût supplémentaire pour vous.*
