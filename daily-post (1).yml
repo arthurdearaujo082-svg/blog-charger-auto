@@ -1,0 +1,29 @@
+name: Publication quotidienne blog chargeurs iPhone
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 7h/8h heure de Paris selon la saison
+  workflow_dispatch: {}
+
+# Indispensable : autorise le robot à écrire (commit/push) dans le dépôt
+permissions:
+  contents: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le code
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Générer et publier l'article
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          AMAZON_TAG: ${{ secrets.AMAZON_TAG }}
+          PUBLISH_STATUS: ${{ secrets.PUBLISH_STATUS }}
+        run: node generate-and-publish.js

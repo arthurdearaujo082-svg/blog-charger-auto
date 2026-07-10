@@ -1,0 +1,13 @@
+title: "Charge Rapide - Guides chargeurs iPhone"
+description: "Guides, comparatifs et conseils sur les chargeurs rapides pour iPhone"
+theme: minima
+lang: fr
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+show_excerpts: true
+
+# Nombre de derniers articles à afficher sur la page d'accueil
+paginate: 10
